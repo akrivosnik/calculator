@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    justify-content: center;    /*stoixisi kata platos tis selidas*/
+    align-items: center;        /*stoixisi kata mikos tis selidas*/
+    height: 100vh;
+    background-color: #1C1C1C;
+}
+.kompiouteraki{
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+#text{
+    width: 97%;
+    height: 33px;
+    border-radius: 20px;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 24px; /* Αλλάζει το μέγεθος του κειμένου */
+    font-weight: bold; /* Προαιρετικά: Κάνει το κείμενο πιο έντονο */
+    
+}
+.eidika_simvola{
+    display: flex;
+    flex-wrap: wrap;
+    height: 25px;
+    width: 70%;
+    margin-left: 5px;
+    margin-top: 10px;
+    gap: 2px;
+    
+
+}
+#katharismos,#antitheto,#mod{
+    width: 68px;
+    height: 33px;
+    border-radius: 20px;
+    font-size: 20px; /* Αλλάζει το μέγεθος του κειμένου */
+    font-weight: bold; /* Προαιρετικά: Κάνει το κείμενο πιο έντονο */
+    color: #000000;
+    background-color: #D4D4D2;
+}
+.simvola{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Καλύπτει όλο το ύψος */
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    gap: 4px;
+   
+}
+#diairesi,#pollaplasiasmos,#afairesi,#prosthesi,#ison{
+    width: 68px;
+    height: 33px;
+    border-radius: 20px;
+    font-size: 20px; /* Αλλάζει το μέγεθος του κειμένου */
+    font-weight: bold; /* Προαιρετικά: Κάνει το κείμενο πιο έντονο */
+    color: #FFFFFF;
+    background-color:  #FF9500;
+}
+.arithmoi{
+    position: absolute;
+    top: 97px;
+    width: 70%;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    gap: 3px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+   
+
+}
+#miden,#ena,#dio,#tria,#tessera,#pente,#e3i,#efta,#oxto,#ennia,#istoriko,#teleia{
+    width: 68px;
+    height: 33px;
+    border-radius: 20px;
+    font-size: 20px; /* Αλλάζει το μέγεθος του κειμένου */
+    font-weight: bold; /* Προαιρετικά: Κάνει το κείμενο πιο έντονο */
+    color: white;
+    background-color:#505050;
+}
+
+    #istoriko {
+        width: 68px;
+        height: 33px;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #505050; /* Ίδιο φόντο με τους αριθμούς */
+        position: relative; /* Χρειάζεται για το overlay */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Αποφεύγουμε περίεργες παραμορφώσεις */
+    }
+    #istoriko::before {
+        content: "";
+        position: absolute;
+        width: 60%; /* Μικραίνουμε την εικόνα ώστε να είναι διακριτική */
+        height: 60%;
+        background-image: url("../calculator/istockphoto-967495780-612x612.jpg");
+        background-size: contain; /* Η εικόνα να χωράει σωστά */
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: brightness(0.7); /* Μειώνουμε τη φωτεινότητα για να ταιριάζει */
+        opacity: 0.8; /* Κάνει την εικόνα ελαφρώς ημιδιαφανή */
+    }
