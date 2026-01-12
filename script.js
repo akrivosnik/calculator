@@ -87,7 +87,7 @@ function orisePraxi(simbol) {
     else if(praxi==""){
         proigoumenosArithmos=parseFloat(apotelesma.value) 
         apotelesma.value = ""
-        praxi = simbol                                                                       /* ama diagrapso autin ti sinthiki kai afiso mono auta proigoumenosArithmos = parseFloat(apotelesma.value) paizei gt omos den paizei me to if?*/ 
+        praxi = simbol                                                                        
     }                                                                          
     }
 prosthesi.addEventListener("click", function() { orisePraxi("+") })
