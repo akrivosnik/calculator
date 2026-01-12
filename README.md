@@ -19,3 +19,5 @@
 - `HTML5` / `CSS3`
 - `Vanilla JavaScript`
 - `Flexbox` για responsive layout
+
+<img width="420" height="626" alt="Calculator" src="https://github.com/user-attachments/assets/0aa767bf-d8ba-49d7-aa34-3a27bdf77d89" />
