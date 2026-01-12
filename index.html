@@ -10,7 +10,7 @@
         <title>NewCalculator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../calculator/newcalculator.css">
+        <link rel="stylesheet" href="../calculator/style.css">
     </head>
     <body>
         <div class="kompiouteraki">
@@ -28,22 +28,22 @@
                 <button type="button" id="ison">=</button>
             </div>
             <div class="arithmoi">
-                <button type="button" id="efta">7</button>
-                <button type="button" id="oxto">8</button>
-                <button type="button" id="ennia">9</button>
-                <button type="button" id="tessera">4</button>
-                <button type="button" id="pente">5</button>
-                <button type="button" id="e3i">6</button>
-                <button type="button" id="ena">1</button>
-                <button type="button" id="dio">2</button>
-                <button type="button" id="tria">3</button>
-                <button type="button" id="istoriko"></button>
-                <button type="button" id="miden">0</button>
-                <button type="button" id="teleia">.</button>
+                <button type="button" id="efta" onclick="arithmos(7)">7</button>
+                <button type="button" id="oxto" onclick="arithmos(8)">8</button>
+                <button type="button" id="ennia" onclick="arithmos(9)">9</button>
+                <button type="button" id="tessera" onclick="arithmos(4)">4</button>
+                <button type="button" id="pente" onclick="arithmos(5)">5</button>
+                <button type="button" id="e3i" onclick="arithmos(6)">6</button>
+                <button type="button" id="ena" onclick="arithmos(1)">1</button>
+                <button type="button" id="dio" onclick="arithmos(2)">2</button>
+                <button type="button" id="tria" onclick="arithmos(3)">3</button>
+                <button type="button" id="istoriko" onclick="arithmos()"></button>
+                <button type="button" id="miden" onclick="arithmos(0)">0</button>
+                <button type="button" id="teleia" onclick="arithmos('.')">,</button>
 
             </div>
         </div>
         
-        <script src="../calculator/calculator2.js"  defer></script>
+        <script src="../calculator/script.js"  defer></script>
     </body>
 </html>
