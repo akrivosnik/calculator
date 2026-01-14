@@ -39,30 +39,7 @@ antitheto.addEventListener("click",function(){
         apotelesma.value = -parseFloat(apotelesma.value) 
     }
 })
-//Event για το mod 
-mod.addEventListener("click",function(){
-    if(apotelesma.value!=0){
-        apotelesma.value=apotelesma.value+ " mod"
-    }
-})
-//Event για / 
-div.addEventListener("click",function(){
-    if(apotelesma.value!=0){
-        apotelesma.value+=" /"
-    }
-})
-//Event για * 
-pollaplasiasmos.addEventListener("click",function(){
-    apotelesma.value+=" *"
-})
-//Event για - 
-afairesi.addEventListener("click",function(){
-    apotelesma.value+=" -"
-})
-//Event για + 
-prosthesi.addEventListener("click",function(){
-    apotelesma.value+=" +"
-})
+
 //Event για istoriko 
 istoriko.addEventListener("click",function(){
     apotelesma.value=apotelesmaTeliko
